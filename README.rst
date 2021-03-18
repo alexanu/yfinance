@@ -25,6 +25,10 @@ Yahoo! Finance market data downloader
     :target: https://www.codefactor.io/repository/github/ranaroussi/yfinance
     :alt: CodeFactor
 
+.. image:: https://coveralls.io/repos/github/ranaroussi/yfinance/badge.svg?branch=master
+    :target: https://coveralls.io/github/ranaroussi/yfinance?branch=master
+    :alt: Coveralls coverage
+
 .. image:: https://img.shields.io/github/stars/ranaroussi/yfinance.svg?style=social&label=Star&maxAge=60
     :target: https://github.com/ranaroussi/yfinance
     :alt: Star this repo
@@ -47,7 +51,7 @@ NOTE
 
 The library was originally named ``fix-yahoo-finance``, but
 I've since renamed it to ``yfinance`` as I no longer consider it a mere "fix".
-For reasons of backward-competability, ``fix-yahoo-finance`` now import and
+For reasons of backward-compatibility, ``fix-yahoo-finance`` now import and
 uses ``yfinance``, but you should install and use ``yfinance`` directly.
 
 `Changelog » <./CHANGELOG.rst>`__
